@@ -1,0 +1,52 @@
+
+package ejemploclasesabstractas;
+
+/**
+ *
+ * @author PEDRO
+ */
+
+import abstracto.domain.*;
+
+public class EjemploClasesAbstractas {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        FiguraGeometrica circulo = new Circulo("Circulo");
+        FiguraGeometrica rectangulo = new Rectangulo("Rectangulo");
+        FiguraGeometrica triangulo = new Triangulo("Triangulo");
+        FiguraGeometrica rombo = new Rombo("Rombo");
+        FiguraGeometrica cuadrado=new Cuadrado("Cuadrado");
+        FiguraGeometrica hexagono = new Hexagono("Hexagono");
+        
+        
+        System.out.println(circulo);
+        circulo.dibujar();
+        
+        System.out.println("");
+        System.out.println(rectangulo);
+        rectangulo.dibujar();
+        
+        System.out.println("");
+        System.out.println(triangulo);
+        triangulo.dibujar();
+        
+        System.out.println("");
+        System.out.println(rombo);
+        rombo.dibujar();
+        
+        System.out.println("");
+        System.out.println(cuadrado);
+        cuadrado.dibujar();
+        
+        System.out.println("");
+        System.out.println(hexagono);
+        hexagono.dibujar();
+    }
+    
+}
+
