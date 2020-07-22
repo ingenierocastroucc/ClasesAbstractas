@@ -1,0 +1,23 @@
+
+package abstracto.domain;
+
+/**
+ *
+ * @author PEDRO
+ */
+public class Rombo extends FiguraGeometrica {
+    
+    public Rombo( String tipoFigura){
+        
+        super(tipoFigura);
+    
+    }
+    
+    public void dibujar(){
+        
+        System.out.println("Dibujar un:"+" "+this.getClass().getSimpleName());
+    
+    }
+    
+}
+
