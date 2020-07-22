@@ -1,0 +1,37 @@
+
+package abstracto.domain;
+
+/**
+ *
+ * @author PEDRO
+ */
+public abstract class FiguraGeometrica {
+    
+    protected String tipoFigura;
+    
+    protected FiguraGeometrica(String tipoFigura){
+        this.tipoFigura=tipoFigura;
+    
+    }
+    
+    public abstract void dibujar();
+    
+    public String getTipofigura(){
+        return tipoFigura;
+        
+    }
+    
+        public void setTipofigura(String tipoFiura){
+        this.tipoFigura=tipoFigura;
+        
+    }
+    
+        public String toString(){
+        
+            return "Tipo Figura:"+" "+tipoFigura;
+        
+        }
+    
+    
+}
+
