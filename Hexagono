@@ -1,0 +1,21 @@
+
+package abstracto.domain;
+
+/**
+ *
+ * @author PEDRO
+ */
+public class Hexagono extends FiguraGeometrica {
+    
+    public Hexagono(String tipoFigura){
+        
+        super(tipoFigura);
+    
+    }
+    
+    public void dibujar(){
+    System.out.println("Dibujar un:"+" "+this.getClass().getSimpleName());
+    }
+    
+}
+
